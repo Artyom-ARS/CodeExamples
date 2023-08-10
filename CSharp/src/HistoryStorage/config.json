@@ -1,0 +1,22 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "saveToStorage": true,
+    "forceReplace": true,
+    "priceConfiguration": [
+        {
+            "instrument": "EUR/USD",
+            "year": 2020,
+            "timeframe": "d1"
+        },
+        {
+            "instrument": "EUR/USD",
+            "year": 2020,
+            "timeframe": "m1"
+        },
+        {
+            "instrument": "EUR/USD",
+            "year": 2020,
+            "timeframe": "m5"
+        }
+    ]
+}

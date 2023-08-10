@@ -1,0 +1,131 @@
+{
+    "instruments": [
+        "EUR/USD",
+        "USD/CAD",
+        "NZD/USD",
+    ],
+    "history": [
+        {
+            "instrument": "EUR/USD",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "EUR/USD",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+        {
+            "instrument": "USD/CAD",
+            "timeframe": "m1",
+            "barsCount": 21
+        },
+        {
+            "instrument": "USD/CAD",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+        {
+            "instrument": "NZD/USD",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "NZD/USD",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+    ],
+    "Experts": [
+        {
+            "Id": "43",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": "EUR/USD",
+            "lots": "1",
+            "profit": "8",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "11",
+            "tunnelBars": "13",
+            "direction": "B",
+            "atrbars": "10",
+        },
+        {
+            "Id": "44",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": "EUR/USD",
+            "lots": "1",
+            "profit": "8",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "11",
+            "tunnelBars": "13",
+            "direction": "S",
+            "atrbars": "10"
+        },
+        {
+            "Id": "53",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": "USD/CAD",
+            "lots": "1",
+            "profit": "13",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "11",
+            "tunnelBars": "21",
+            "direction": "B",
+            "atrbars": "10",
+        },
+        {
+            "Id": "54",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": "USD/CAD",
+            "lots": "1",
+            "profit": "13",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "11",
+            "tunnelBars": "21",
+            "direction": "S",
+            "atrbars": "10",
+        },
+        {
+            "Id": "91",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": "NZD/USD",
+            "lots": "1",
+            "profit": "5",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "11",
+            "tunnelBars": "13",
+            "direction": "B",
+            "atrbars": "10",
+        },
+        {
+            "Id": "92",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": "NZD/USD",
+            "lots": "1",
+            "profit": "5",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "11",
+            "tunnelBars": "13",
+            "direction": "S",
+            "atrbars": "10",
+        },
+    ]
+}

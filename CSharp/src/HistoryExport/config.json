@@ -1,0 +1,24 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "loadFromStorage": true,
+    "priceConfiguration": [
+        {
+            "from": "20200801",
+            "to": "20201120",
+            "timeframe": "m1",
+            "instrument": "EUR/USD"
+        },
+        {
+            "from": "20200801",
+            "to": "20201120",
+            "timeframe": "m5",
+            "instrument": "EUR/USD"
+        },
+        {
+            "from": "20200801",
+            "to": "20201120",
+            "timeframe": "d1",
+            "instrument": "EUR/USD"
+        }
+    ],
+}

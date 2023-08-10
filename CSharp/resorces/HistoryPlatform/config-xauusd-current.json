@@ -1,0 +1,153 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "pathClosedOrders": "C:\\work\\hydra\\Store\\closed.csv",
+    "loadFromStorage": true,
+    "SaveHistoryAfterTest": false,
+    "MaxDegreeOfParallelism": 1,
+    "priceConfiguration": [
+        {
+            "from": "20200701",
+            "to": "20200828",
+            "timeframe": "m1",
+            "instrument": "XAU/USD"
+        },
+        {
+            "from": "20200701",
+            "to": "20200828",
+            "timeframe": "d1",
+            "instrument": "XAU/USD"
+        }
+    ],
+    "history": [
+        {
+            "instrument": "XAU/USD",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "XAU/USD",
+            "timeframe": "m1",
+            "barsCount": 21
+        },
+        {
+            "instrument": "XAU/USD",
+            "timeframe": "m1",
+            "barsCount": 34
+        },
+        {
+            "instrument": "XAU/USD",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+    ],
+    "priceForTrade": {
+        "from": "20200701",
+        "to": "20200828",
+        "timeframe": "m1",
+        "instrument": "XAU/USD"
+    },
+    "Experts": [
+        {
+            "Id": "21",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "XAU/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "90" ],
+            "tunnelShift": [ "0.4" ],
+            "tunnelSizeLimit": [ "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7" ],
+            "tunnelBars": [ "34" ],
+            "spreadLimit": "50",
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "22",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "XAU/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "90" ],
+            "tunnelShift": [ "0.4" ],
+            "tunnelSizeLimit": [ "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7" ],
+            "tunnelBars": [ "34" ],
+            "spreadLimit": "50",
+            "direction": "B",
+            "disabled": "False"
+        },
+        {
+            "Id": "23",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "XAU/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "150" ],
+            "tunnelShift": [ "0.2" ],
+            "tunnelSizeLimit": [ "2.0" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "11" ],
+            "tunnelBars": [ "13" ],
+            "spreadLimit": "50",
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "24",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "XAU/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "150" ],
+            "tunnelShift": [ "0.2" ],
+            "tunnelSizeLimit": [ "2.0" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "11" ],
+            "tunnelBars": [ "13" ],
+            "spreadLimit": "50",
+            "direction": "B",
+            "disabled": "False"
+        },
+        {
+            "Id": "25",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "XAU/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "90" ],
+            "tunnelShift": [ "0.2" ],
+            "tunnelSizeLimit": [ "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "11" ],
+            "tunnelBars": [ "21" ],
+            "spreadLimit": "50",
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "26",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "XAU/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "90" ],
+            "tunnelShift": [ "0.2" ],
+            "tunnelSizeLimit": [ "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "11" ],
+            "tunnelBars": [ "21" ],
+            "spreadLimit": "50",
+            "direction": "B",
+            "disabled": "False"
+        }
+    ]
+}

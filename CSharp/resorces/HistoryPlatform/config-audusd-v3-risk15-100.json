@@ -1,0 +1,129 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "pathClosedOrders": "C:\\work\\hydra\\Store\\closed.csv",
+    "loadFromStorage": true,
+    "SaveHistoryAfterTest": false,
+    "MaxDegreeOfParallelism": 12,
+    "TestResultsInPairs": true,
+    "CloseAllOpen": false,
+    "priceConfiguration": [
+        {
+            "from": "20200701",
+            "to": "20200919",
+            "timeframe": "m1",
+            "instrument": "AUD/USD"
+        },
+        {
+            "from": "20200701",
+            "to": "20200919",
+            "timeframe": "d1",
+            "instrument": "AUD/USD"
+        }
+    ],
+    "history": [
+        {
+            "instrument": "AUD/USD",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "AUD/USD",
+            "timeframe": "m1",
+            "barsCount": 21
+        },
+        {
+            "instrument": "AUD/USD",
+            "timeframe": "m1",
+            "barsCount": 34
+        },
+        {
+            "instrument": "AUD/USD",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+    ],
+    "priceForTrade": {
+		"from": "20200714",
+		"to": "20200919",
+        "timeframe": "m1",
+        "instrument": "AUD/USD"
+    },
+    "Experts": [
+        {
+            "Id": "41",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "AUD/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "5" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "5", "10" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "100" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "42",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "AUD/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "5" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "5", "10" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "100" ],
+            "direction": "B",
+            "disabled": "False"
+        },
+        {
+            "Id": "45",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "AUD/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "5" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "10", "35", "60" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "15" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "46",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "AUD/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "5" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "10", "35", "60" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "15" ],
+            "direction": "B",
+            "disabled": "False"
+        },
+    ]
+}

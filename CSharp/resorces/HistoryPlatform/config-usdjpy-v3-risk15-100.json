@@ -1,0 +1,166 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "pathClosedOrders": "C:\\work\\hydra\\Store\\closed.csv",
+    "loadFromStorage": true,
+    "TestResultsInPairs": true,
+    "MaxDegreeOfParallelism": 12,
+    "CloseAllOpen": false,
+    "priceConfiguration": [
+        {
+            "from": "20200701",
+            "to": "20200919",
+            "timeframe": "m1",
+            "instrument": "USD/JPY"
+        },
+        {
+            "from": "20200701",
+            "to": "20200919",
+            "timeframe": "d1",
+            "instrument": "USD/JPY"
+        }
+    ],
+    "history": [
+        {
+            "instrument": "USD/JPY",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "USD/JPY",
+            "timeframe": "m1",
+            "barsCount": 21
+        },
+        {
+            "instrument": "USD/JPY",
+            "timeframe": "m1",
+            "barsCount": 34
+        },
+        {
+            "instrument": "USD/JPY",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+    ],
+    "priceForTrade": {
+		"from": "20200714",
+		"to": "20200919",
+        "timeframe": "m1",
+        "instrument": "USD/JPY"
+    },
+    "Experts": [
+        {
+            "Id": "71",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "USD/JPY" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "16" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "16", "32" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "100" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "72",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "USD/JPY" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "16" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "16", "32" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "100" ],
+            "direction": "B",
+            "disabled": "False"
+        },
+        {
+            "Id": "75",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "USD/JPY" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "10" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "10", "20" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "100" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "76",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "USD/JPY" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "10" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "10", "20" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "100" ],
+            "direction": "B",
+            "disabled": "False"
+        },
+        {
+            "Id": "73",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "USD/JPY" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "10" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "20", "70", "120" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "15" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "74",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "USD/JPY" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "10" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "20", "70", "120" ],
+            "freezeAfterStopLossMinutes": [ "240", "1440" ],
+            "maxRisk": [ "15" ],
+            "direction": "B",
+            "disabled": "False"
+        },
+    ]
+}

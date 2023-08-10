@@ -1,0 +1,73 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "pathClosedOrders": "C:\\work\\hydra\\Store\\closed.csv",
+    "loadFromStorage": true,
+    "SaveHistoryAfterTest": false,
+    "MaxDegreeOfParallelism": 1,
+    "priceConfiguration": [
+        {
+            "from": "20200701",
+            "to": "20200826",
+            "timeframe": "m1",
+            "instrument": "NAS100"
+        },
+        {
+            "from": "20200701",
+            "to": "20200826",
+            "timeframe": "d1",
+            "instrument": "NAS100"
+        }
+    ],
+    "history": [
+        {
+            "instrument": "NAS100",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "NAS100",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+    ],
+    "priceForTrade": {
+		"from": "20200701",
+		"to": "20200826",
+        "timeframe": "m1",
+        "instrument": "NAS100"
+    },
+    "Experts": [
+        {
+            "Id": "101",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "NAS100" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "13" ],
+            "tunnelShift": [ "0.4" ],
+            "tunnelSizeLimit": [ "2.0" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "11" ],
+            "tunnelBars": [ "13" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "102",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "NAS100" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "13" ],
+            "tunnelShift": [ "0.4" ],
+            "tunnelSizeLimit": [ "2.0" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "11" ],
+            "tunnelBars": [ "13" ],
+            "direction": "B",
+            "disabled": "False"
+        }
+    ]
+}

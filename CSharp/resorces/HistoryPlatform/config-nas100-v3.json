@@ -1,0 +1,128 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "pathClosedOrders": "C:\\work\\hydra\\Store\\closed.csv",
+    "loadFromStorage": true,
+    "SaveHistoryAfterTest": false,
+    "MaxDegreeOfParallelism": 12,
+    "TestResultsInPairs": true,
+    "priceConfiguration": [
+        {
+            "from": "20200114",
+            "to": "20200630",
+            "timeframe": "m1",
+            "instrument": "NAS100"
+        },
+        {
+            "from": "20200114",
+            "to": "20200630",
+            "timeframe": "d1",
+            "instrument": "NAS100"
+        }
+    ],
+    "history": [
+        {
+            "instrument": "NAS100",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "NAS100",
+            "timeframe": "m1",
+            "barsCount": 21
+        },
+        {
+            "instrument": "NAS100",
+            "timeframe": "m1",
+            "barsCount": 34
+        },
+        {
+            "instrument": "NAS100",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+    ],
+    "priceForTrade": {
+		"from": "20200201",
+		"to": "20200630",
+        "timeframe": "m1",
+        "instrument": "NAS100"
+    },
+    "Experts": [
+        {
+            "Id": "101",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "NAS100" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "5" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "5", "10", "15" ],
+            "freezeAfterStopLossMinutes": [ "120", "360", "720" ],
+            "maxRisk": [ "100", "150" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "102",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "NAS100" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "5" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "5", "10", "15" ],
+            "freezeAfterStopLossMinutes": [ "120", "360", "720" ],
+            "maxRisk": [ "100", "150" ],
+            "direction": "B",
+            "disabled": "False"
+        },
+        {
+            "Id": "103",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "NAS100" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "8" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "8", "16", "24" ],
+            "freezeAfterStopLossMinutes": [ "120", "360", "720" ],
+            "maxRisk": [ "100", "150" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "104",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": [ "NAS100" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "8" ],
+            "tunnelShift": [ "0.2", "0.4" ],
+            "tunnelSizeLimit": [ "2.0", "3.5" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "stopLoss": [ "8", "16", "24" ],
+            "freezeAfterStopLossMinutes": [ "120", "360", "720" ],
+            "maxRisk": [ "100", "150" ],
+            "direction": "B",
+            "disabled": "False"
+        }
+    ]
+}

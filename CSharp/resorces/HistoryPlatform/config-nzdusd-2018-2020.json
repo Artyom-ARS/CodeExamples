@@ -1,0 +1,67 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "pathClosedOrders": "C:\\work\\hydra\\Store\\closed.csv",
+    "loadFromStorage": true,
+    "SaveHistoryAfterTest": false,
+    "priceConfiguration": [
+        {
+            "from": "20180201",
+            "to": "20200626",
+            "timeframe": "m1",
+            "instrument": "NZD/USD"
+        },
+        {
+            "from": "20180201",
+            "to": "20200626",
+            "timeframe": "d1",
+            "instrument": "NZD/USD"
+        }
+    ],
+    "history": [
+        {
+            "instrument": "NZD/USD",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+    ],
+    "priceForTrade": {
+		"from": "20180201",
+		"to": "20200626",
+        "timeframe": "m1",
+        "instrument": "NZD/USD"
+    },
+    "Experts": [
+        {
+            "Id": "51",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "NZD/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": "5",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "11",
+            "tunnelBars": "13",
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "52",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "NZD/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": "5",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "11",
+            "tunnelBars": "13",
+            "direction": "B",
+            "disabled": "False"
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+﻿nasdaq.csv - downloaded from https://www.nasdaq.com/market-activity/stocks/screener
+alternative source - https://www.sec.gov/include/ticker.txt
+symbols.txt - symbols from all markets

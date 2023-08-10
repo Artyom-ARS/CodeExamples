@@ -1,0 +1,85 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "pathClosedOrders": "C:\\work\\hydra\\Store\\closed.csv",
+    "loadFromStorage": true,
+    "SaveHistoryAfterTest": false,
+    "MaxDegreeOfParallelism": 12,
+    "priceConfiguration": [
+        {
+            "from": "20200401",
+            "to": "20200626",
+            "timeframe": "m1",
+            "instrument": "JPN225"
+        },
+        {
+            "from": "20200401",
+            "to": "20200626",
+            "timeframe": "d1",
+            "instrument": "JPN225"
+        }
+    ],
+    "history": [
+        {
+            "instrument": "JPN225",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "JPN225",
+            "timeframe": "m1",
+            "barsCount": 21
+        },
+        {
+            "instrument": "JPN225",
+            "timeframe": "m1",
+            "barsCount": 34
+        },
+        {
+            "instrument": "JPN225",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+    ],
+    "priceForTrade": {
+		"from": "20200401",
+		"to": "20200626",
+        "timeframe": "m1",
+        "instrument": "JPN225"
+    },
+    "Experts": [
+        {
+            "Id": "11",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "JPN225" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "13", "21", "34", "55" ],
+            "tunnelShift": [ "0.2" ],
+            "tunnelSizeLimit": [ "2.0", "3.5" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "spreadLimit": "10",
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "12",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "JPN225" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "13", "21", "34", "55" ],
+            "tunnelShift": [ "0.2" ],
+            "tunnelSizeLimit": [ "2.0", "3.5" ],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7", "11" ],
+            "tunnelBars": [ "13", "21", "34" ],
+            "spreadLimit": "10",
+            "direction": "B",
+            "disabled": "False"
+        }
+    ]
+}

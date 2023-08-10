@@ -1,0 +1,94 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "pathClosedOrders": "C:\\work\\hydra\\Store\\closed.csv",
+    "loadFromStorage": true,
+    "TestResultsInPairs": true,
+    "MaxDegreeOfParallelism": 12,
+    "CloseAllOpen": false,
+    "priceConfiguration": [
+        {
+            "from": "20200701",
+            "to": "20200919",
+            "timeframe": "m1",
+            "instrument": "EUR/USD"
+        },
+        {
+            "from": "20200701",
+            "to": "20200919",
+            "timeframe": "d1",
+            "instrument": "EUR/USD"
+        }
+    ],
+    "history": [
+        {
+            "instrument": "EUR/USD",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "EUR/USD",
+            "timeframe": "m1",
+            "barsCount": 21
+        },
+        {
+            "instrument": "EUR/USD",
+            "timeframe": "m1",
+            "barsCount": 34
+        },
+        {
+            "instrument": "EUR/USD",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+    ],
+    "priceForTrade": {
+		"from": "20200714",
+		"to": "20200919",
+        "timeframe": "m1",
+        "instrument": "EUR/USD"
+    },
+    "Experts": [
+        {
+            "Id": "4",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV4",
+            "instrument": [ "EUR/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "8" ],
+            "tunnelShift": [ "0.2" ],
+            "tunnelSizeLimit": [ "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7" ],
+            "tunnelBars": [ "13" ],
+            "stopLoss": [ "56" ],
+            "freezeAfterStopLossMinutes": [ "1440" ],
+            "maxRisk": [ "15" ],
+            "profitSequenceTakeProfit": [ "8.0", "12.0", "16.0" ],
+            "profitSequence": [ "3", "4", "5" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "5",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV4",
+            "instrument": [ "EUR/USD" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "8" ],
+            "tunnelShift": [ "0.2" ],
+            "tunnelSizeLimit": [ "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7" ],
+            "tunnelBars": [ "13" ],
+            "stopLoss": [ "56" ],
+            "freezeAfterStopLossMinutes": [ "1440" ],
+            "maxRisk": [ "15" ],
+            "profitSequenceTakeProfit": [ "8.0", "12.0", "16.0" ],
+            "profitSequence": [ "3", "4", "5" ],
+            "direction": "B",
+            "disabled": "False"
+        }
+    ]
+}

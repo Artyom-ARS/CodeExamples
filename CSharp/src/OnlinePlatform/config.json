@@ -1,0 +1,63 @@
+{
+    "PrintStatusSuspenseSeconds": 5,
+    "PlatformStartHandleUpdatesDelaySeconds": 10,
+    "PriceUpdateSuspense": {
+        "EUR/USD": {
+            "milliseconds": 1000,
+            "price":  0.8
+        }
+    },
+    "instruments": [
+        "EUR/USD"
+    ],
+    "history": [
+        {
+            "instrument": "EUR/USD",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "EUR/USD",
+            "timeframe": "d1",
+            "barsCount": 10
+        }
+    ],
+    "Experts": [
+        {
+            "Id": "43",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": "EUR/USD",
+            "lots": "1",
+            "profit": "3",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "7",
+            "tunnelBars": "13",
+            "stopLoss": "36",
+            "freezeAfterStopLossMinutes": "5",
+            "maxRisk": "20",
+            "direction": "B",
+            "atrbars": "10"
+        },
+        {
+            "Id": "44",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV3",
+            "instrument": "EUR/USD",
+            "lots": "1",
+            "profit": "3",
+            "tunnelShift": "0.2",
+            "tunnelSizeLimit": "3.5",
+            "turnMultiDiscount": "0.8",
+            "turnMulti": "7",
+            "tunnelBars": "13",
+            "stopLoss": "36",
+            "freezeAfterStopLossMinutes": "5",
+            "maxRisk": "20",
+            "direction": "S",
+            "atrbars": "10"
+        }
+    ]
+}

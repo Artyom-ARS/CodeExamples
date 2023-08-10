@@ -1,0 +1,10 @@
+{
+  "commands": {
+    "MoveDLLs": {
+      "fileName": "powershell.exe",
+      "workingDirectory": ".",
+      "arguments": "-ExecutionPolicy Bypass -NonInteractive -File MoveDLLs.ps1"
+    }
+  },
+  "-vs-binding": { "AfterBuild": [ "MoveDLLs" ] }
+}

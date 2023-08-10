@@ -1,0 +1,72 @@
+{
+    "path": "C:\\work\\hydra\\Store",
+    "pathClosedOrders": "C:\\work\\hydra\\Store\\closed.csv",
+    "loadFromStorage": true,
+    "SaveHistoryAfterTest": false,
+    "priceConfiguration": [
+        {
+            "from": "20190110",
+            "to": "20200626",
+            "timeframe": "m1",
+            "instrument": "EUR/GBP"
+        },
+        {
+            "from": "20190110",
+            "to": "20200626",
+            "timeframe": "d1",
+            "instrument": "EUR/GBP"
+        }
+    ],
+    "history": [
+        {
+            "instrument": "EUR/GBP",
+            "timeframe": "m1",
+            "barsCount": 13
+        },
+        {
+            "instrument": "EUR/GBP",
+            "timeframe": "d1",
+            "barsCount": 10
+        },
+    ],
+    "priceForTrade": {
+		"from": "20190110",
+		"to": "20200626",
+        "timeframe": "m1",
+        "instrument": "EUR/GBP"
+    },
+    "Experts": [
+        {
+            "Id": "31",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "EUR/GBP" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "8" ],
+            "tunnelShift": [ "0.4" ],
+            "tunnelSizeLimit": [ "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7" ],
+            "tunnelBars": [ "13" ],
+            "direction": "S",
+            "disabled": "False"
+        },
+        {
+            "Id": "32",
+            "AssemblyName": "ExpertCollection",
+            "ClassName": "GoldenGooseV1",
+            "instrument": [ "EUR/GBP" ],
+            "atrBars": "10",
+            "lots": "1",
+            "profit": [ "8" ],
+            "tunnelShift": [ "0.4" ],
+            "tunnelSizeLimit": [ "3.5"],
+            "turnMultiDiscount": [ "0.8" ],
+            "turnMulti": [ "7" ],
+            "tunnelBars": [ "13" ],
+            "direction": "B",
+            "disabled": "False"
+        }
+    ]
+}
